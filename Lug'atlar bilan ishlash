@@ -1,0 +1,2 @@
+Izohli_lugat={'integer':'butun son', 'float':"o'nlik son", 'string':'matn', 'if':'Agar'}
+print(Izohli_lugat)
