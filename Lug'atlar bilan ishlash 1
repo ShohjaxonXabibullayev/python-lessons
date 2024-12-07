@@ -2,3 +2,4 @@ OILA={'Dadam':'Osh', 'Onam':'manti', 'singlim':'napaleon', 'man':'somsa', 'Hasan
 print(f"dadam {OILA['Dadam']} ni yaxshi ko'radi")
 print(f"onamni {OILA['Onam']} ni yaxshi ko'radi")
 print(f"singlim {OILA['singlim']} ni yaxshi ko'radi")
+print(f"man {OILA['man']} ni yaxshi ko'radi")
