@@ -1,0 +1,10 @@
+Lugat={
+  'Float':'O\'nlik son',
+  'Boolen':'Mantiqiy qiymat',
+  'for':'Biror malni qayta-qayta bajarish tsikli',
+  'if':'Shartlarni tekshirish operatori',
+  'Integer':'Butun son'
+  }
+for Kalit,Qiymat in sorted(Lugat.items()):
+    print(f"kalit: {Kalit}")
+    print(f"qiymat: {Qiymat}")
