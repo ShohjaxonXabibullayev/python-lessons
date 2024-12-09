@@ -1,0 +1,20 @@
+menu={
+    'osh':30000,
+    'non':4000,
+    'manti':20000,
+    'somsa':7000,
+    'salad':5000,
+    'choy':3000,
+    'shashlik':25000,
+    'sho\'rva':18000
+    }
+
+buyurtmalar=[]
+print("3 ta taom buyurtma bering.")
+for n in range(3):
+    buyurtmalar.append(input(f"{n+1}-taom: ").lower())
+for buyurtma in buyurtmalar:
+    if buyurtma in menu:
+       print(f"{buyurtma.title()} {menu[buyurtma]} so'm")
+    else:
+        print(f"Kechirasiz, bizda {buyurtma} yo'q.")
