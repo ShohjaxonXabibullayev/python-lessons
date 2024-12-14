@@ -1,0 +1,5 @@
+kinolar=[]
+print("5 ta eng sevimli kinolaringizni kiriting: ")
+for n in range(5):
+    kinolar.append(input(f"{n+1}-kino: "))
+print(kinolar)
