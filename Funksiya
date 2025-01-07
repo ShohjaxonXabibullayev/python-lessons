@@ -1,0 +1,7 @@
+def tugilganyil_hisobla(foydalanuvchi_yoshi, joriy_yil=2024):
+    """Foydalanuvchi tugilgan yilini hisoblaydigan dastur"""
+    print(f"{ism.title()} siz {joriy_yil-foydalanuvchi_yoshi}-yilda tugilgansiz")
+
+ism=input("ismingizni kiriting: ")
+tugilgan_yil=int(input("yoshingizni kiriting: "))
+tugilganyil_hisobla(tugilgan_yil)
